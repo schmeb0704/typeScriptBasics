@@ -5,9 +5,13 @@
   "main": "using-ts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc app.ts && node app.js"
+    "start": "lite-server",
+    "comp": "tsc app.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
